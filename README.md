@@ -1,7 +1,8 @@
 # VHR_LandUse_Classification
-Repository for certain steps in the VHR Landuse Classification Framework
+Repository for certain steps in the VHR Landuse Classification Framework. 
 
-The files are R scripts for particular steps in the LU classification framework developed by Gary R Watmough, Clare Sullivan and Cheryl A Palm. 
+The files are R scripts for particular steps in the LU classification framework developed by Gary R Watmough, Clare Sullivan and Cheryl A Palm abd published in International Journal of Applied Earth Observation and Geoinformation (DOI: 10.1016/j.jag.2016.09.012).
+
 Pre-processing step 1_3_4 = Conversion of Digital Number imagery to Radiance and TOA Reflectance including calculating TOA correctuion factors (step 1), pan sharpening of the multispectral bands (step 3), creation of additional features for classification including NDVI, VARI, principal components and textural analysis (step4)
 Step 6 masking script = masks the objects classified in phase 1 from the image stack in preparation for phase 2 segmentation and classification. 
 Step 8 sample splitting script = the sample objects from ecognition are exported as one file. This script splits the samples 70/30 for training and testing of the subsequent random forest model. 
